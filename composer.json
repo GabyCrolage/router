@@ -2,7 +2,7 @@
     "name": "gabycrolage/router",
     "description": "Router for php personal projects",
     "type": "package",
-    "license": "v0.1",
+    "license": "v1.0",
     "authors": [
         {
             "name": "GabyCrolage",
