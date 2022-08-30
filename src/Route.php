@@ -14,8 +14,9 @@ class Route {
     }
 
     private static function get_path( $parse_path ){
-        $path = str_replace('/_home/', '', $parse_path );
-        return $path != '' ? explode('/', trim($path, '\/')) : [];
+        $path = explode('/', trim($parse_path, '\/') );
+        array_shift( $path );
+        return $path;
     }
 
     private static function get_query_string( $parse_query ){
