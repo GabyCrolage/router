@@ -1,0 +1,19 @@
+{
+    "name": "gabycrolage/router",
+    "description": "Router for php personal projects",
+    "type": "package",
+    "license": "v0.1",
+    "authors": [
+        {
+            "name": "GabyCrolage",
+            "email": "graab@graab.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Router\\": "src/"
+        }
+    }
+}
