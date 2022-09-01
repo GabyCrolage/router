@@ -1,6 +1,6 @@
 {
     "name": "gabycrolage/router",
-    "description": "Router for php personal projects",
+    "description": "Router for personal PHP projects",
     "type": "package",
     "license": "mit",
     "version": "v0.1",
